@@ -5,8 +5,9 @@ import StudentTable from './component/StudentTable';
 
 const App = () => {
   const [students, setStudents] = useState([
-    { id: 1, name: 'Nguyen Van A', code: 'CODE12345', status: 'Active' },
-    { id: 2, name: 'Tran Van B', code: 'CODE67890', status: 'In-active' }
+    { id: 1, name: 'Hoàng Lê Quý An', code: 'QE180187', status: 'Active' },
+    { id: 2, name: 'Nguyễn Trần Quang Nhật', code: 'QE100465', status: 'In-active' },
+    { id: 3, name: 'Lương Gia Khánh', code: 'QE180101', status: 'Active'}
   ]);
   const [selectedCount, setSelectedCount] = useState(0);
 
