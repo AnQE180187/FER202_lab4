@@ -29,6 +29,7 @@ const StudentForm = ({ onAddStudent, onClear }) => {
   };
 
   return (
+    
     <Form className="mt-3">
       <Row>
         <Col md={6}>
@@ -40,7 +41,7 @@ const StudentForm = ({ onAddStudent, onClear }) => {
               onChange={(e) => setStudentName(e.target.value)}
             />
           </Col>
-          <h3></h3>
+          <h3> </h3>
           <Col md={10}>
             <Form.Control
               type="text"
@@ -49,7 +50,7 @@ const StudentForm = ({ onAddStudent, onClear }) => {
               onChange={(e) => setStudentCode(e.target.value)}
             />
           </Col>
-          <h3></h3>
+          <h3> </h3>
           <Col md={4}>
             <Form.Check
               type="checkbox"

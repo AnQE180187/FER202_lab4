@@ -22,9 +22,9 @@ const StudentRow = ({ student, onDelete, onSelect }) => {
       <td>{student.name}</td>
       <td>{student.code}</td>
       <td>
-        <Badge bg={student.status === 'Active' ? 'success' : 'danger'}>
+        <Badge bg={student.status === 'Active' ? 'success' : 'warning'}>
           {student.status}
-        </Badge>
+        </Badge>  
       </td>
       <td>
         <Button variant="danger" onClick={onDelete}>Delete</Button>
